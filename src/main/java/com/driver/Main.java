@@ -18,8 +18,8 @@ public class Main {
 
     public static void main(String[] args) {
         Product p=new Product();
-        p.product(10,20);
-        p.product(10,20,30);
-        p.product(10.1,20.2);
+        System.out.println(p.product(10,20));
+        System.out.println(p.product(10,20,30));
+        System.out.println(p.product(10.1,20.2));
     }
 }
